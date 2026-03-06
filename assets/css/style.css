@@ -1,0 +1,31 @@
+/* Dropdown item hover color */
+.dropdown-menu .dropdown-item:hover {
+    background-color: #793b06;
+    color: #fff; /* optional - makes text white */
+}
+
+/* Optional: active item color */
+.dropdown-menu .dropdown-item:active {
+    background-color: #793b06;
+    color: #fff;
+}
+
+.dropdown-menu .dropdown-item {
+    transition: 0.3s ease;
+    color: #ba8e25;
+}
+.fun-facts{
+    background-image: url("../images/fun-facts-bg.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.fun-facts::before{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background: rgba(0, 0, 0, 0.514);
+    position: absolute;
+}
